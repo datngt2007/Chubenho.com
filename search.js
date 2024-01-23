@@ -414,7 +414,7 @@ let product_div = document.getElementById("main");
 function loadProducts() {
     for (let i = 0; i < data.length; i++) {
         let output = ` 
-        <a herf=""><div class="ma"  style=" width: 320px; margin-bottom:70px; border: 3px solid black; margin-left: 80px; ">
+        <div class="ma"  style=" width: 320px; margin-bottom:70px; border: 3px solid black; margin-left: 80px; ">
         <img
         src="${data[i].image}"
         alt=""
@@ -424,7 +424,7 @@ function loadProducts() {
       <div class="bottom">
         <button class="add-to-cart" style="font-size: 20px; width : 100px; height: 50px; margin-bottom: 20px; margin-left: 110px;">Buy</button>
       </div>
-     </div></a>`;
+     </div>`;
       product_div.innerHTML += output;
     }
   }
