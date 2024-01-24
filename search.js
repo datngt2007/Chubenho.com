@@ -414,7 +414,7 @@ let product_div = document.getElementById("main");
 function loadProducts() {
     for (let i = 0; i < data.length; i++) {
         let output = ` 
-        <div class="ma"  style=" width: 320px; margin-bottom:70px; border: 3px solid black; margin-left: 80px; ">
+        <div class="ma"  style=" width: 320px; margin-bottom:70px; border: 3px solid black; margin-left: 100px; ">
         <img
         src="${data[i].image}"
         alt=""
